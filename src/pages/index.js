@@ -4,7 +4,7 @@ import Banner from "../components/Banner"
 import ProductFeed from "../components/ProductFeed";
 
 export default function Home({products}) {
-  return (
+    return (
     <div className="bg-gray-100">
       <Head>
         <title>Amazon 2.0</title>
