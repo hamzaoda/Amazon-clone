@@ -21,7 +21,6 @@ function Orders({ orders }) {
                     <h2>Please Sign In to Show your orders</h2>
                 )}
                 <div className="mt-5 space-y-4"></div>
-                {console.log("this is the orders", orders)}
                 {orders?.map(({id, amount, amountShipping, items, timestamp, images})=>(
                   <Order
                   key={id}
